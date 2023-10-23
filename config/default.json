@@ -1,0 +1,26 @@
+{
+  "DB_URL": "mongodb+srv://openai-saas-chatbot-superadmin:LdzhgbKXysGZxq07@cluster0.tvmgdbh.mongodb.net/?retryWrites=true&w=majority",
+  "ALLOWED_DOMAIN": ["http://localhost:8080"],
+  "SCRIPT_SOURCES": ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
+  "SRV_PORT": "8888",
+  "JWT_TOKEN_KEY": "7CA73BBC52DC5415753B126",
+  "EMAIL_CONFIG": {
+    "EMAIL": "atikshaikh436@gmail.com",
+    "SERVICE": "gmail",
+    "HOST": "smtp.gmail.com",
+    "PORT": 587,
+    "SECURE": false,
+    "AUTH": {
+      "user": "atikshaikh436@gmail.com",
+      "pass": "uckztomulkrdidoi"
+    }
+  },
+  "SMS_GATEWAY_URL": "https://msg.mtalkz.com/V2/http-api-post.php",
+  "SMS_GATEWAY_PAYLOAD": {
+    "apikey": "2xv8WNv52k7SMPqV",
+    "senderid": "FETHOM",
+    "number": "",
+    "message": "",
+    "format": "json"
+  }
+}
