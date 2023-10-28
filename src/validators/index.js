@@ -1,6 +1,9 @@
 "use strict";
 const validate = require("../utils/validate");
 
-const {} = require("./validators");
+const { signupRules, loginRules } = require("./validators");
 
-module.exports = {};
+module.exports = {
+  loginValidation: validate(loginRules),
+  signupValidation: validate(signupRules),
+};

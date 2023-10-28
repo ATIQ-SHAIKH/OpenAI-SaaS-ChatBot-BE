@@ -2,9 +2,8 @@
 const ROUTES = {
   USER_ROUTES: {
     ROOT: "/user",
-  },
-  ADMIN_ROUTES: {
-    ROOT: "/admin",
+    SIGNUP: "/signup",
+    LOGIN: "/login",
   },
 };
 
